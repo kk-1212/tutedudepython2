@@ -1,5 +1,6 @@
 #Task 2
-q = 0
-for i in range(1,51):
-    q = q + i
-print ("The sum of numbers from 1 to 50 is:",q)
+import math
+a = int(input("Enter a number: "))
+print ("Square root: ",math.sqrt(a))
+print ("Logarithm: ",math.log(a))
+print ("Sine :", math.sin(a))
