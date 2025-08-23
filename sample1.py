@@ -1,6 +1,10 @@
 #Task 1
-a = int(input("Enter a number: "))
-if a %2 == 0:
-    print(a,"is an even number")
-else:
-    print(a,"is an odd number")
+
+def fact(b):
+    if (b < 2):
+        return 1
+    else:
+        return b * fact(b-1)
+
+a = int(input("Enter ther number: "))
+print ("Facrtorial of ",a,"is:", fact(a))
