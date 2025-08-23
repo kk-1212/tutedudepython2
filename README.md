@@ -1,14 +1,27 @@
-# tutedudepython2# Beginner Python Programs
+# Assignment 3: Functions & Modules in Python  
 
-- **sample1.py** – A program that checks whether a number entered by the user is even or odd.
-- **sample2.py** – A program that calculates the sum of numbers from 1 to 50 using a loop.
+
 
 ---
 
-## Tasks
+- **sample1.py** – A program that calculates the factorial of a number using a function.
+- **sample3.py** – A program that performs mathematical calculations using Python math module.
 
-### Task 1: sample1.py, Check if a Number is Even or Odd
-A Python script that asks the user for a number and tells whether it’s even or odd using an `if-else` statement.  
+---
 
-### Task 2: sample2.py, Sum of Integers from 1 to 50
-This script demonstrates how to use a `for` loop to go through a range of numbers and perform calculations.
+
+### Task 1: Calculate Factorial Using a Function
+In this program, a function named fact is defined to calculate the factorial of a number.  
+The calculation can be done using either a loop or recursion.  
+
+
+---
+
+### Task 2: Using the Math Module for Calculations
+This program takes a number as input from the user and uses Python math module to perform the following operations:
+- Calculate the square root of the number  
+- Calculate the natural logarithm (log base *e*)  
+- Calculate the sine of the number (in radians)  
+
+
+---
