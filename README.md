@@ -6,7 +6,7 @@
 
 ---
 
-## 📝 About the Tasks  
+## About the Tasks  
 
 ### Task 1: Read a File and Handle Errors  
 This program tries to open and read a file named **sample.txt**.  
