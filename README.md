@@ -1,27 +1,25 @@
-# Assignment 3: Functions & Modules in Python  
+# Assignment 4: Files, Exceptions, and Errors in Python  
 
 
-
----
-
-- **sample1.py** – A program that calculates the factorial of a number using a function.
-- **sample3.py** – A program that performs mathematical calculations using Python math module.
+- **sample1.py** – A program that reads a file and handles errors if the file is missing.  
+- **sample2.py** – A program that writes user input to a file, appends more data, and then reads the final content.
 
 ---
 
+## 📝 About the Tasks  
 
-### Task 1: Calculate Factorial Using a Function
-In this program, a function named fact is defined to calculate the factorial of a number.  
-The calculation can be done using either a loop or recursion.  
-
-
----
-
-### Task 2: Using the Math Module for Calculations
-This program takes a number as input from the user and uses Python math module to perform the following operations:
-- Calculate the square root of the number  
-- Calculate the natural logarithm (log base *e*)  
-- Calculate the sine of the number (in radians)  
-
+### Task 1: Read a File and Handle Errors  
+This program tries to open and read a file named **sample.txt**.  
+It prints the file content line by line if the file exists.  
+If the file does not exist, the program gracefully handles the error without crashing.
 
 ---
+
+### Task 2: Write and Append Data to a File  
+This program works with a file named **output.txt**.  
+It performs three steps:  
+1. Takes user input and writes it to the file.  
+2. Appends extra data to the same file.  
+3. Reads and displays the final content of the file.  
+
+This task demonstrates writing, appending, and reading from files in Python.  
